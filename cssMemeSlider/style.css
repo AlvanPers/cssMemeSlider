@@ -1,3 +1,15 @@
+body {
+    background-color: #f6f8fa;
+    width: 100%;
+}
+
+.all {
+    background: #1F2328;
+    margin: 1rem 2rem;
+    width: 90%;
+    height: 100%;
+}
+
 #slider {
     /*положение слайдера*/
     position: relative;
@@ -8,6 +20,7 @@
 #slider {
     /*центровка слайдера*/
     margin: 0 auto;
+    /* background-color: #1F2328; */
 }
 
 #slides article {
@@ -20,6 +33,7 @@
     /*устанавливает общий размер блока с изображениями*/
     width: 500%;
     line-height: 0;
+
 
 }
 
@@ -35,6 +49,8 @@ article img {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: contain;
+    border-radius: 15px;
+    background-color: #fff;
 }
 
 #desktop:checked~#slider {
