@@ -154,18 +154,13 @@ a {
     background: #bbb;
 }
 
-.navigation {
-    margin: 25% 0 0;
-    /* border: #fff 1px solid; */
-
-}
-
 
 #active {
     /*расположение блока с переключателями*/
-    margin: 23% 0 0;
+    margin: 13% 0 0;
     text-align: end;
     /* border: #fff 1px solid; */
+    z-index: 1;
 
 }
 
@@ -204,8 +199,16 @@ a {
 @media (max-width: 500px) {
     #active {
         /*расположение блока с переключателями*/
-        /* margin: 23% 0 0; */
+        margin: 3% 0 0;
         text-align: center;
+    }
+
+    h2 {
+        padding-left: 8rem;
+    }
+
+    #controls {
+        display: none;
     }
 
 }
