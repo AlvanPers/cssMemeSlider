@@ -157,7 +157,7 @@ a {
 
 #active {
     /*расположение блока с переключателями*/
-    margin: 13% 0 0;
+    margin: 13% 1% 0 0;
     text-align: end;
     /* border: #fff 1px solid; */
     z-index: 1;
