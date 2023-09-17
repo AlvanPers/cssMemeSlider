@@ -2,16 +2,16 @@ body {
     background-color: #f6f8fa;
     /* max-width: 1024px; */
     width: 100%;
-    border: #76c8ff 2px solid;
+    /* border: #76c8ff 2px solid; */
 
 }
 
 .all {
     background: #1F2328;
-    margin: 1rem auto;
+    margin: 1rem auto 0;
     width: 80%;
     /* height: 100%; */
-    border: #de6c98 2px solid;
+    /* border: #de6c98 2px solid; */
 }
 
 #slider {
@@ -19,6 +19,8 @@ body {
     position: relative;
     text-align: center;
     top: 10px;
+    /* border: #fff 1px solid; */
+    padding-bottom: 2rem;
 
 }
 
@@ -161,8 +163,9 @@ a {
 
 #active {
     /*расположение блока с переключателями*/
-    /* margin: 23% 0 0; */
+    margin: 23% 0 0;
     text-align: end;
+    /* border: #fff 1px solid; */
 
 }
 
