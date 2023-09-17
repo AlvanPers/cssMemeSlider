@@ -157,7 +157,7 @@ a {
 
 #active {
     /*расположение блока с переключателями*/
-    margin: 13% 1% 0 0;
+    margin: 18% 0 0;
     text-align: end;
     /* border: #fff 1px solid; */
     z-index: 1;
@@ -196,6 +196,8 @@ a {
     transition: opacity 0.2s ease-out;
 }
 
+
+
 @media (max-width: 500px) {
     #active {
         /*расположение блока с переключателями*/
@@ -209,6 +211,14 @@ a {
 
     #controls {
         display: none;
+    }
+
+}
+
+@media (max-width: 768px) and (min-width:501px) {
+    #active {
+        /*расположение блока с переключателями*/
+        margin: 13% 1% 0 0;
     }
 
 }
