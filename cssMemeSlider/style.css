@@ -1,12 +1,14 @@
 body {
     background-color: #f6f8fa;
+    /* max-width: 1024px; */
     width: 100%;
+
 }
 
 .all {
     background: #1F2328;
     margin: 1rem 2rem;
-    width: 90%;
+    width: 80%;
     height: 100%;
 }
 
@@ -15,6 +17,7 @@ body {
     position: relative;
     text-align: center;
     top: 10px;
+
 }
 
 #slider {
@@ -53,6 +56,11 @@ article img {
     background-color: #fff;
 }
 
+article h2 {
+    color: aliceblue;
+    margin-top: 40px;
+}
+
 #desktop:checked~#slider {
     /*размер всего слайдера*/
     max-width: 960px;
@@ -66,7 +74,7 @@ article img {
 #switch3:checked~#controls label:nth-child(2),
 #switch4:checked~#controls label:nth-child(3),
 #switch5:checked~#controls label:nth-child(4) {
-    background: url('prev.png') no-repeat;
+    background: url('/cssMemeSlider/cssMemeSlider/img/prev.png') no-repeat;
     /*заливка фона картинкой без повторений*/
     float: left;
     margin: 0 0 0 -84px;
@@ -82,7 +90,7 @@ article img {
 #switch3:checked~#controls label:nth-child(4),
 #switch4:checked~#controls label:nth-child(5),
 #switch5:checked~#controls label:nth-child(1) {
-    background: url('next.png') no-repeat;
+    background: url('/cssMemeSlider/cssMemeSlider/img/next.png') no-repeat;
     /*заливка фона картинкой без повторений*/
     float: right;
     margin: 0 -84px 0 0;
@@ -142,10 +150,18 @@ a {
     background: #bbb;
 }
 
+.navigation {
+    margin: 25% 0 0;
+    /* border: #fff 1px solid; */
+
+}
+
+
 #active {
     /*расположение блока с переключателями*/
-    margin: 23% 0 0;
-    text-align: center;
+    /* margin: 23% 0 0; */
+    text-align: end;
+
 }
 
 #active label:hover {
